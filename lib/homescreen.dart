@@ -7,7 +7,7 @@ class Homescreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Homescreen'),
+        title: const Text('Homescreen Nava'),
       ),
       body: Center(
         child: Column(
