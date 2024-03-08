@@ -13,6 +13,16 @@ class Firstscreen extends StatelessWidget {
         child: Column(
           children: [
             ElevatedButton(onPressed: () {}, child: const Text('screen')),
+            Container(
+              padding: const EdgeInsets.all(16.0),
+              decoration: BoxDecoration(
+                border: Border.all(),
+              ),
+              child: const Text(
+                "FlutterBeads",
+                style: TextStyle(fontSize: 34.0),
+              ),
+            )
           ],
         ),
       ),
